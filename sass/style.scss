@@ -1,0 +1,60 @@
+
+@import "nav.scss";
+ 
+#big_show_photo{
+    background-image: url("../media/greensilk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#cover_on_image{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.428);
+}
+
+#video_itself video{
+    width: 100%;
+    height: 100%;
+}
+
+#text_near_image1 img{
+    width: 100%;
+    height: 100%;
+}
+
+#text_near_image2 img{
+    width: 100%;
+    height: 100%;
+}
+
+#text_near_image3 img{
+    width: 100%;
+    height: 100%;
+}
+#button_read-more{
+    border: 4px solid white;
+}
+
+#button_read-more:hover{
+    border: 4px solid rgb(255, 217, 0);
+}
+#try_for_free{
+    background-color: black;
+}
+
+#try_for_free:hover{
+    color: white;
+    border: 4px solid white;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#black_marks_in{
+    width: 90%;
+    height: 85%;
+    background-image: url("../media/adoption-1024x414.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

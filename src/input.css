@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .logo_in{
+        @apply md:w-2/5 h-[80px] overflow-hidden float-left px-10;
+    }
+}
+@layer components {
+    .menu_in{
+        @apply md:w-3/5 h-[80px] float-right flex;
+    }
+}
+
+@layer components{
+    .side_menu_bar{
+        @apply hover:text-yellow-400 transition-all duration-200 text-xl;
+    }
+}
+
+@layer components{
+    .menu_members{
+        @apply hover:text-yellow-400 transition-all duration-200;
+    }
+}
+
+@layer components{
+    .center_of_everything{
+        @apply flex justify-center items-center;
+    }
+}
