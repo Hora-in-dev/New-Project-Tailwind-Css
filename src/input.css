@@ -7,6 +7,11 @@
         @apply md:w-2/5 h-[80px] overflow-hidden float-left px-10;
     }
 }
+@layer components{
+    .allhover{
+        @apply hover:text-blue-500;
+    }
+}
 @layer components {
     .menu_in{
         @apply md:w-3/5 h-[80px] float-right flex;
